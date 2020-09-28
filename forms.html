@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="Enter full name" name="full_name">
+        <input type="password" placeholder="Enter password" name="password">
+    </div>
+    <div>
+        What is you favorite color? <br>
+        <input type="radio" value="red" name="color">Red
+        <input type="radio" value="blue" name="color">Blue
+        <input type="radio" value="orange" name="color">Orange
+    </div>
+    <div>
+        Food?
+        <input name="food" list="foods" placeholder="food">
+        <datalist id="foods">
+            <option value="Pizza">
+            <option value="Pasta">
+            <option value="Sushi">
+            <option value="Paella">
+            <option value="Wurst">
+        </datalist>
+    </div>
+    <div>
+        <input type="submit" value="Submit Info">
+    </div>
+
+</body>
+</html>
